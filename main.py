@@ -6,7 +6,8 @@
 #from printing_age import *
 #from calc import *
 #from strings import *
-from weight import *
+#from weight import *
+from loops import *
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -20,6 +21,7 @@ if __name__ == '__main__':
     #printing_age()
     #calc()
     #strings()
-    weight()
+    #weight()
+    loops()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
