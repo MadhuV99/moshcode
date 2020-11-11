@@ -1,5 +1,7 @@
 def strings():
     course = 'Python for Beginners'
+    print('    '+course+'    ')
+    print(('    ' + course + '    ').strip())
     print(course[0])
     print(course.find('for'))
     print(course.replace('for', '4'))

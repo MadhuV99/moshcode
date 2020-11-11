@@ -15,7 +15,7 @@ def get_other_weight(given_weight, given_unit):
 def get_unit():
     #unit = 'L'
     #unit = 'K'
-    unit = input('(K)g or (l)bs: ')[0].upper()
+    unit = input('(K)g or (l)bs: ').strip()[0].upper()
     return unit
 
 
