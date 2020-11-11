@@ -21,7 +21,8 @@ def calculate_age(birth_yr_int):
     return age
 
 def make_int(a_str):
-    the_int = int(a_str)
+    the_float = float(a_str)
+    the_int = int(the_float)
     return the_int
 
 def get_birth_year():
