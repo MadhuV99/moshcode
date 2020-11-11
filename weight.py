@@ -5,7 +5,7 @@ def show_other(weight, unit):
 def get_other_weight(given_weight, given_unit):
     other_unit = 'Weight in Kg: '
     conversion_factor = 0.453592
-    if given_unit != 'L':
+    if given_unit[0].upper() != 'L':
         other_unit = 'Weight in lb: '
         conversion_factor = 1 / conversion_factor
     other_weight = given_weight * conversion_factor
@@ -29,7 +29,7 @@ def get_weight():
 def weight():
     given_weight = get_weight()
     given_unit = get_unit()
-    (other_weight, other_unit) = get_other_weight(given_weight, given_unit)
+    other_weight, other_unit = get_other_weight(given_weight, given_unit)
 
     show_other(other_weight, other_unit)
 
